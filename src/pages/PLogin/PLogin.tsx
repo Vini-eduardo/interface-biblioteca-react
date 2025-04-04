@@ -1,6 +1,6 @@
-import Cabecalho from "../../assets/components/Cabecalho/Cabecalho"
-import Rodape from "../../assets/components/Rodape/Rodape"
-import LoginForm from "../../assets/components/LoginForm/LoginForm";
+import Cabecalho from "../../components/Cabecalho/Cabecalho"
+import Rodape from "../../components/Rodape/Rodape"
+import LoginForm from "../../components/LoginForm/LoginForm";
 
 
 function PLogin () {

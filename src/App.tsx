@@ -1,13 +1,13 @@
 import './App.css'
-import PLogin from './pages/PLogin/PLogin'
+import AppRoutes from './routes';
 
 function App() {
 
   return (
     <>
-      <PLogin/>
+      <AppRoutes/>
     </>
   )
 }
 
-export default App
+export default App;

@@ -1,6 +1,6 @@
-import Cabecalho from "../../assets/components/Cabecalho/Cabecalho"
-import Welcome from "../../assets/components/Welcome/Welcome"
-import Rodape from "../../assets/components/Rodape/Rodape"
+import Cabecalho from "../../components/Cabecalho/Cabecalho"
+import Welcome from "../../components/Welcome/Welcome"
+import Rodape from "../../components/Rodape/Rodape"
 
 
 function PHome () {

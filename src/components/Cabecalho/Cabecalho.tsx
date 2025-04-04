@@ -10,6 +10,9 @@ function Cabecalho() {
                 <img src={logotipo} alt="logotipo"></img>
             </a>
             <a href={APP_ROUTES.ROUTE_LOGIN}>login</a>
+            <a href={APP_ROUTES.ROUTE_LIVRO}>Livro</a>
+            <a href={APP_ROUTES.ROUTE_EMPRESTIMO}>Empréstimos</a>
+            <a href={APP_ROUTES.ROUTE_ALUNO}>Aluno</a>
         </header>
     );
 }

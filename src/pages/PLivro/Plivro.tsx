@@ -1,9 +1,9 @@
 import Cabecalho from "../../components/Cabecalho/Cabecalho"
-import TabelaLivro from "../../components/Tabelas/TabelaLivro/TabelaLivro";
 import Rodape from "../../components/Rodape/Rodape"
+import TabelaLivro from "../../components/Tabelas/TabelaLivro/TabelaLivro";
 
 
-function PHome () {
+function PLivro () {
     return (
         <>
           <Cabecalho/>
@@ -13,4 +13,4 @@ function PHome () {
     )
 }
 
-export default PHome;
+export default PLivro;

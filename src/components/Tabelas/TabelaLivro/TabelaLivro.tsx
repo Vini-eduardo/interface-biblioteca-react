@@ -22,6 +22,13 @@ function TabelaLivro() {
     fetchLivros();
   }, [livros]);
 
+    const formatarDinheiro = (novoValor: any) => {
+      return Number(novoValor.valorAquisicao).toLocaleString('pt-BR', {
+         style: 'currency',
+         currency: 'BRL',
+      });
+    };
+
   return (
     <>
       <DataTable value={livros} paginator rows={5} rowsPerPageOptions={[5, 10, 25, 50]} tableStyle={{ minWidth: '50rem' }}
@@ -31,7 +38,7 @@ function TabelaLivro() {
         <Column field="autor" header="Autor" style={{ width: '25%' }}></Column>
         <Column field="editora" header="Editora" style={{ width: '25%' }}></Column>
         <Column field="isbn" header="ISBN" style={{ width: '25%' }}></Column>
-        <Column field="valorAquisicao" header="Valor de Aquisição" style={{ width: '25%' }}></Column>
+        <Column field="valorAquisicao" body={formatarDinheiro} header="Valor de Aquisição" style={{ width: '25%' }}></Column>
       </DataTable>
     </>
   );

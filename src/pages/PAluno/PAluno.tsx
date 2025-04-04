@@ -1,16 +1,16 @@
 import Cabecalho from "../../components/Cabecalho/Cabecalho"
-import TabelaLivro from "../../components/Tabelas/TabelaLivro/TabelaLivro";
 import Rodape from "../../components/Rodape/Rodape"
+import TabelaAluno from "../../components/Tabelas/TabelaAluno/TabelaAluno";
 
 
-function PHome () {
+function PAluno () {
     return (
         <>
           <Cabecalho/>
-          <TabelaLivro/>
+          <TabelaAluno/>
           <Rodape/>
         </>
     )
 }
 
-export default PHome;
+export default PAluno;
